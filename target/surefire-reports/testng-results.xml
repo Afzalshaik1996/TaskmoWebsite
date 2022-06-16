@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-16T17:15:55 IST" name="All Test Suite" finished-at="2022-06-16T17:16:35 IST" duration-ms="40911">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@1c93084c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-16T17:15:55 IST" name="/Users/apple/IntelliJIDEAProjects/Website/src/test/java" finished-at="2022-06-16T17:16:35 IST" duration-ms="40911">
+      <class name="TestRunner.runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.runner@1c93084c]" started-at="2022-06-16T17:15:55 IST" name="setUpClass" finished-at="2022-06-16T17:15:55 IST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@575c3e9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@1c93084c]" started-at="2022-06-16T17:15:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-16T17:16:27 IST" duration-ms="31635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of Taskmo Website automation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation of the Taskmo Official Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@1c93084c]" started-at="2022-06-16T17:16:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-16T17:16:35 IST" duration-ms="8537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of Links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation of the Taskmo Official Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@1c93084c]" started-at="2022-06-16T17:16:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-16T17:16:35 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of close browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation of the Taskmo Official Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.runner@1c93084c]" started-at="2022-06-16T17:16:35 IST" name="tearDownClass" finished-at="2022-06-16T17:16:35 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.runner -->
+    </test> <!-- /Users/apple/IntelliJIDEAProjects/Website/src/test/java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
