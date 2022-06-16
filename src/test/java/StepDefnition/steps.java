@@ -20,10 +20,10 @@ public class steps {
     @Given("Open the Chrome browser")
     public void openTheChromeBrowser() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--headless");
-//        driver = new ChromeDriver(options);
+//        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
         System.out.println("Opening the Chrome browser");
     }
 
