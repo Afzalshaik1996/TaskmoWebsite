@@ -20,10 +20,10 @@ public class steps {
     @Given("Open the Chrome browser")
     public void openTheChromeBrowser() {
         WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless");
+//        driver = new ChromeDriver(options);
         System.out.println("Opening the Chrome browser");
     }
 
@@ -46,7 +46,7 @@ public class steps {
 
     @Given("click on Aboutus Page")
     public void click_on_Aboutus_Page() throws InterruptedException {
-        driver.findElement(By.xpath("//span[normalize-space()='About']")).click();
+        driver.findElement(By.xpath("(//span[normalize-space()='About'])[1]")).click();
         Thread.sleep(2000);
         System.out.println("Aboutus Page is displayed");
     }
